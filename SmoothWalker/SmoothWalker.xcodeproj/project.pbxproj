@@ -44,6 +44,7 @@
 		B07C3A8C2BA6F07F00FCDAE2 /* SmoothWalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothWalkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07C3A902BA6F07F00FCDAE2 /* SmoothWalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothWalkerUITests.swift; sourceTree = "<group>"; };
 		B07C3A922BA6F07F00FCDAE2 /* SmoothWalkerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothWalkerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B07C3A9F2BA6F10600FCDAE2 /* SmoothWalker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmoothWalker.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		B07C3A742BA6F07E00FCDAE2 /* SmoothWalker */ = {
 			isa = PBXGroup;
 			children = (
+				B07C3A9F2BA6F10600FCDAE2 /* SmoothWalker.entitlements */,
 				B07C3A752BA6F07E00FCDAE2 /* SmoothWalkerApp.swift */,
 				B07C3A772BA6F07E00FCDAE2 /* ContentView.swift */,
 				B07C3A792BA6F07F00FCDAE2 /* Assets.xcassets */,
@@ -419,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmoothWalker/SmoothWalker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SmoothWalker/Preview Content\"";
@@ -448,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmoothWalker/SmoothWalker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SmoothWalker/Preview Content\"";
